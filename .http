@@ -1,0 +1,11 @@
+# Prueba GET /login
+GET http://localhost:5000/login
+
+# Prueba POST /login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "123456"
+}
